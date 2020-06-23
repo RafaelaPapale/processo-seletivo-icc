@@ -31,7 +31,7 @@ def receive(interface):
             gpio.output(13, gpio.LOW)
         else:
             gpio.output(13, gpio.LOW)
-        print("Conexão com o servidor encerrada!")
+    print("Conexão com o servidor encerrada!")
 
 def main():
     # Configurações iniciais
